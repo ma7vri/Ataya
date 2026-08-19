@@ -1,45 +1,157 @@
-# Ataya
+# 🍲 Ataya
 
-Ataya is an iOS mobile application developed using Xcode that aims to reduce food waste by facilitating a secure and organized food donation process.  
-The application connects food donors with verified NGOs and volunteer collectors, allowing donations to be submitted, reviewed, scheduled, collected, and tracked through a structured workflow.  
-Ataya promotes transparency, food safety, and community engagement by providing clear donation status updates and administrative oversight.
+<p align="left">
+  <img src="Ataya/ataya-logo.png" alt="Ataya Logo" width="140">
+</p>
 
-## Main Features
+### Community-Based Food Donation App
 
-| Feature                                           | Explanation                                                                                                             | Developer      |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------- |
-| User Authentication                               | Provides secure, role-based access for Donors, NGOs, and Admins to ensure controlled system usage                       | Ruqaya Khan    |
-| Food Donation Submission                          | Allows donors to submit food items with detailed information such as quantity, category, expiry date, photos, and notes | Fatema Maitham |
-| Food Safety Checks & Reporting                    | Validates donation safety (e.g., expiry rules) and enables reporting/flagging unsafe or suspicious donations            | Fatema Maitham |
-| Organization Discovery (Verified NGOs & Missions) | Enables users to browse verified NGOs, their missions, and available donation options                                   | Sarah Abdulla  |
-| Pickup Scheduling                                 | Enables NGOs to accept/reject requests, schedule pickup date/time and location, and prevent conflicts                   | Rana Alqameesh |
-| Real-Time Donation Status Tracking                | Displays live donation status updates (pending, accepted, scheduled, collected, completed) for transparency             | Ruqaya Khan    |
-| Donation History & Activity Logs                  | Stores donation history and logs user actions for tracking and auditing                                                 | Ruqaya Khan    |
-| Recurring Donation Schedules                      | Allows setting recurring donation plans for repeated contributions over time                                            | Ameena Khamis  |
-| Impact Tracking Dashboard                         | Shows impact statistics and insights (totals, trends, contributions) through dashboard analytics                        | Ameena Khamis  |
-| Notifications                                     | Sends automatic alerts for donation updates, pickup confirmations, approvals, and important system events               | Rana Alqameesh |
-| Admin Panel                                       | Provides admin tools to manage users, monitor activity, and oversee the donation workflow                               | Maram Shubbar  |
-| Admin Flow (Verification & Oversight)             | Supports admin processes such as verification of collectors/NGOs and handling flagged content or suspicious activity    | Sarah Abdulla  |
-| Gamification: Achievements & Rewards              | Encourages engagement using points, badges, achievements, and reward milestones                                         | Maram Shubbar  |
+Ataya is a community-based food donation application designed to connect donors, collectors, and organizations while making food donation and pickup more organized and accessible.
 
-## Additional Features
+## 🌱 Overview
 
-| Feature                                 | Explanation                                                                                      | Developer      |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------- |
-| Seasonal & Event-Based Campaigns        | Runs seasonal campaigns (e.g., Ramadan/occasions) with progress tracking and participation goals | Maram Shubbar  |
-| Gift of Mercy                           | Enables users to donate on behalf of their beloved ones            | Fatema Maitham |
-| Basket Donations & Monetary Support     | Allows supporting NGOs through basket donations and optional monetary contributions              | Ameena Khamis  |
-| Community Reviews (Donors & Collectors) | Allows donors and collectors to leave reviews/feedback to improve trust and experience quality   | Ruqaya Khan    |
-| Help & Support                          | Provides in-app help and support requests for issue reporting and assistance                     | Rana Alqameesh |
-| Rating / Reputation                     | Builds trust using rating/reputation indicators for users, collectors, and NGOs                  | Sarah Abdulla  |
+Ataya provides a platform for managing food donations, from submitting food items and scheduling pickups to tracking donations and viewing impact.
 
-## Technologies & Libraries
+The application supports three main user roles:
 
-| Technology / Library | Purpose |
-|--------------------|--------|
-| Swift (UIKit) | Used to develop the iOS application user interface and logic |
-| Xcode | Integrated development environment for building and testing the app |
-| Firebase Firestore | Stores donation, user, and campaign data with real-time updates |
-| Firebase Authentication | Manages secure login and user identity verification |
-| Firebase App Check | Protects backend resources by allowing only trusted app requests |
-| DGCharts | Provides visual analytics and data charts for admin reports |
+* **Donor**
+* **Collector**
+* **Admin**
+
+## ✨ Features
+
+* User Authentication
+* Food Donation Submission
+* Food Safety Checks & Reporting
+* Organization Discovery
+* Pickup Scheduling
+* Real-Time Donation Status Tracking
+* Donation History & Activity Logs
+* Recurring Donation Schedules
+* Impact Tracking Dashboard
+* Notifications
+* Admin Panel
+* Admin Verification & Oversight
+* Gamification: Achievements & Rewards
+* Seasonal & Event-Based Campaigns
+* Gift of Mercy
+* Basket Donations & Monetary Support
+* Community Reviews
+* Help & Support
+* Rating / Reputation
+
+## 🤖 Smart Food Tagging
+
+Ataya includes a smart food tagging feature designed to assist with food identification and information extraction using:
+
+* AWS Rekognition
+* AWS Textract
+
+## 👥 User Roles
+
+### Donor
+
+Users who provide food donations through the platform.
+
+### Collector
+
+Users responsible for collecting and managing donation pickups.
+
+### Admin
+
+Administrators responsible for managing users, monitoring activity, verification, and platform oversight.
+
+## 💻 Technology Stack
+
+### 📱 Mobile Development
+
+* Swift
+* Xcode
+
+### ☁️ Backend & Cloud Services
+
+* Firebase
+* Cloud Firestore
+* Cloudinary
+
+### 🤖 AI
+
+* AWS Rekognition
+* AWS Textract
+
+### 🧰 Development Tools
+
+* Git
+* GitHub
+* Xcode
+
+## 🗄️ Firestore Collections
+
+* `users`
+* `donations`
+* `campaigns`
+* `pickups`
+* `baskets`
+* `ngo_applications`
+
+## 🎨 UI/UX Design
+
+- [Low-Fidelity Wireframes](https://www.canva.com/design/DAG1erTPoo4/Z8dxt8vH5zsRx8NBPeyM9Q/edit)
+- [High-Fidelity Design](https://www.figma.com/design/j7f3DAf6s2KBBC9eG7qS20/ATAYA?node-id=2180-3387&t=ivEzMBNckrgRyuNv-1)
+
+## 🎥 Demo
+
+- [App Demo](https://drive.google.com/file/d/1Ef5M4-UYlySGfNJ-J0YR7Gf02TSA0rpn/view?usp=sharing)
+
+## 👥 Team Contributions
+
+### Ruqaya Khan
+
+* User Authentication
+* Real-Time Donation Status Tracking
+* Donation History & Activity Logs + Community Reviews
+
+### Fatema Maitham
+
+* Food Donation Submission
+* Food Safety Checks & Reporting
+* Gift of Mercy
+
+### Sarah Abdulla
+
+* Organization Discovery
+* Admin Flow: Verification & Oversight
+* Rating / Reputation
+
+### Rana Alqameesh
+
+* Pickup Scheduling
+* Notifications
+* Help & Support
+
+### Ameena Khamis
+
+* Recurring Donation Schedules
+* Impact Tracking Dashboard
+* Basket Donations & Monetary Support
+
+### Maram Shubbar
+
+* Admin Panel
+* Gamification: Achievements & Rewards
+* Seasonal & Event-Based Campaigns
+
+## 🎯 Project Goals
+
+* Help reduce food waste
+* Encourage community participation
+* Make food donation easier to manage
+* Improve donation and pickup organization
+* Provide better visibility into community impact
+
+---
+
+### 🍲 Ataya
+
+**Connecting food, people, and community.**
+
