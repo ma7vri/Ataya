@@ -74,11 +74,6 @@ Administrators responsible for managing users, monitoring activity, verification
 * Cloud Firestore
 * Cloudinary
 
-### 🤖 AI
-
-* AWS Rekognition
-* AWS Textract
-
 ### 🧰 Development Tools
 
 * Git
